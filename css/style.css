@@ -1,0 +1,68 @@
+body{
+  font-family: 'Satoshi Variable', sans-serif;
+}
+.link
+{
+  text-decoration: none;
+}
+.logo-item
+{
+  background: #5F718D;
+}
+.list 
+{
+  list-style: none;
+}
+.nav-list-item
+{   
+  background-color: rgb(195, 203, 206);
+  color: #131313;
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.37;
+}
+.nav-list-item:is(:hover, :active, :focus)
+{
+background-color: #131313;
+color:rgb(195, 203, 206);
+}
+.first-nav-item
+{ 
+  
+  position: absolute;
+left: 87.99%;
+right: 11.04%;
+top: 0.73%;
+bottom: 98.92%;
+height: 23px;
+width: 15px;
+left: 1320px;
+top: 80px;
+border-radius: 0px;
+
+background: #FFFFFF;
+}
+.second-nav-item
+{
+  position: absolute;
+width: 50px;
+height: 50px;
+left: 1299px;
+top: 82px;
+
+background: #8E56F6;
+
+border-radius: 50%;
+}
+.main-hero
+{
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.62;
+/* or 162% */
+
+
+color: #5F718D;
+
+}
