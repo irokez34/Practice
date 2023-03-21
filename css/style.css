@@ -1,68 +1,49 @@
-body{
-  font-family: 'Satoshi Variable', sans-serif;
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #f9f9fd;
 }
-.link
-{
-  text-decoration: none;
+
+h1,
+h2,
+p {
+  margin: 0;
 }
-.logo-item
-{
-  background: #5F718D;
-}
-.list 
-{
-  list-style: none;
-}
-.nav-list-item
-{   
-  background-color: rgb(195, 203, 206);
-  color: #131313;
-  font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.37;
-}
-.nav-list-item:is(:hover, :active, :focus)
-{
-background-color: #131313;
-color:rgb(195, 203, 206);
-}
-.first-nav-item
-{ 
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 15px;
   
-  position: absolute;
-left: 87.99%;
-right: 11.04%;
-top: 0.73%;
-bottom: 98.92%;
-height: 23px;
-width: 15px;
-left: 1320px;
-top: 80px;
-border-radius: 0px;
-
-background: #FFFFFF;
+  outline: 2px dashed #f44336;
 }
-.second-nav-item
-{
-  position: absolute;
-width: 50px;
-height: 50px;
-left: 1299px;
-top: 82px;
 
-background: #8E56F6;
-
-border-radius: 50%;
+.page-header,
+.page-footer,
+.hero,
+.about,
+.features {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.main-hero
-{
-  font-weight: 400;
-font-size: 16px;
-line-height: 1.62;
-/* or 162% */
 
+.page-header {
+  background-color: #e0e0e0;
+}
 
-color: #5F718D;
+.hero {
+  background-color: #4caf50;
+}
 
+.about {
+  background-color: #ffc107;
+}
+
+.features {
+  background-color: #2196f3;
+}
+
+.page-footer {
+  background-color: #90a4ae;
 }
